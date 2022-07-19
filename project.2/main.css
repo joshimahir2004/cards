@@ -1,0 +1,26 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    
+  
+    /* background-image: url(img/wallpaperflare.com_wallpaper.jpg); */
+    background-color: var(--gray-2);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+:root{
+    --grey: RGB(31, 31, 31);
+    --dark_grey: RGB(12, 12, 12);
+    --light_grey: #BCBCBC;
+    --gray-2 : #383838;
+    --white: rgb(255, 255, 255);
+   
+}
+
+
