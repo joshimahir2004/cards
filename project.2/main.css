@@ -1,26 +1,128 @@
-*{
+* {
     text-decoration: none;
     list-style-type: none;
     margin: 0;
     padding: 0;
 
 }
-body{
-    
-  
+
+body {
+
+
     /* background-image: url(img/wallpaperflare.com_wallpaper.jpg); */
     background-color: var(--gray-2);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-:root{
+:root {
     --grey: RGB(31, 31, 31);
     --dark_grey: RGB(12, 12, 12);
     --light_grey: #BCBCBC;
-    --gray-2 : #383838;
+    --gray-2: #383838;
     --white: rgb(255, 255, 255);
-   
+
 }
 
 
+.nothing {
+    margin-left: 29rem;
+    color: white;
+    font-size: 3rem;
+    padding: 6rem;
+}
+
+.like {
+    color: white;
+}
+
+.like_1 {
+    color: white;
+    margin-top: 1rem;
+}
+
+/* --------------------------------------------ACCOUnt-------------------------------------- --------------------- ------------------------------ */
+
+.account_card {
+
+
+    position: absolute;
+    margin-left: 32rem;
+    margin-top: 5rem;
+    color: white;
+
+    background-color: white;
+    width: 19rem;
+    height: 22rem;
+
+
+}
+
+.login {
+    width: 89%;
+    height: 78%;
+    margin: 1rem;
+    /* background-color: red; */
+    background-image: url(img/Download\ premium\ image\ of\ Aesthetic\ flower\ HD\ wallpaper\,\ minimal\ beige\ background\ with\ window\ shadow\ by\ Ning\ about\ shadow\ window\,\ windows\ desktop\ wallpaper\,\ desktop\ wallpapers\,\ pink\ flower\,\ and\ shadow\ flower\ .jfif);
+    border: solid 1px black;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.cover {
+    width: 89%;
+    height: 78%;
+    margin: 1rem;
+    background-color: rgba(2, 2, 2, 0.219)(24, 24, 24);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+::placeholder {
+
+    font-size: 1em;
+    color: rgb(156, 156, 156);
+    background: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+.login_pass {
+    text-shadow: -9px 4px 3px rgb(0 0 0 / 48%);
+    margin-top: 4rem;
+    color: black;
+    margin-left: 5.5rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.login_pass_1 {
+    font-family: 'Oswald', sans-serif;
+    text-shadow: -9px 4px 3px rgb(0 0 0 / 48%);
+    color: black;
+    margin-left: 4rem;
+   
+}
+
+.pass {
+    margin-left: 1.7rem
+}
+
+.login_icon {
+    width: 5rem;
+    padding: 5px;
+    color: black;
+    margin-left: 3.5rem;
+    margin-right: 2rem; 
+    box-shadow: 0 0 3px #000000, 0 0 0px #262626;
+  
+}
+.cancle_icon{
+    box-shadow: 0 0 3px #000000, 0 0 0px #262626;
+    width: 5rem;
+    padding: 5px;
+    color: black;
+
+   
+}

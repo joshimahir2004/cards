@@ -23,14 +23,18 @@
     border-radius: 30px;
 
 }
+li a{
+    color: white;
+}
 .web_name{    
     margin-left: 1rem;
     color: white;
     font-family: 'Ubuntu', sans-serif;
 }
+
 /* <!- -------------------------------------------------------------------------------------------------------------------------------------> */
 .side_bar:hover{
-
+    
     transition: 0.3s;
     left: 0;
     width: 15%;
@@ -38,7 +42,7 @@
 
 
 .side_bar{
-
+    
 
 
     position: fixed;
@@ -53,6 +57,10 @@
     color: white;
     font-size: 1.3rem;
 
+}
+.side_bar li:hover{
+    transition: 0.5s;
+    transform: translateY(-5px);
 }
 .side_bar ul {
     display: flex;
@@ -85,12 +93,12 @@
 
 
 .card_1{
-   
-    background-color: var(--grey);
+   background-color: rgb(32 32 32);
     background-size: cover;
-    margin: 7rem;
+    margin: 5rem;
     margin-left: 8rem;
     width: 15rem;
+    height: 20rem;
     /* background-color: var( --white);
    */
   
@@ -99,7 +107,7 @@
 .card_img {
     width: 15rem;
     margin: 0;
-    height: 13rem;
+    height: 14rem;
    
 }
 .card_img_1 {
@@ -117,3 +125,9 @@
     margin: 0.5rem;
 }
 
+
+.active{
+    color: red;
+}
+
+/* ------------- */
