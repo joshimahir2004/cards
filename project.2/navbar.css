@@ -189,18 +189,20 @@ li a {
 
 
 .card_1 {
+    overflow: hidden;
     box-shadow: 13px 12px 10px;
     background-color: rgb(32 32 32);
     background-size: cover;
     margin: 5rem;
     margin-left: 7rem;
     width: 15rem;
-    height: 20rem;
+    height: 21rem;
     /* background-color: var( --white);
    */
 
 
 }
+
 
 .card_img {
     width: 15rem;
@@ -252,10 +254,10 @@ li a {
 }
 .card_1 .card_text:hover {
     
- 
+    
     
     height: 9rem;
-    transform: translateY(-84px);
+    transform: translateY(-115px);
     text-align: center;
     color: red;
     transition: 0.5s;
