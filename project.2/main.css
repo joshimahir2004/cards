@@ -16,13 +16,29 @@ body {
 }
 
 :root {
-    --grey: RGB(31, 31, 31);
+     --grey: RGB(31, 31, 31);
     --dark_grey: RGB(12, 12, 12);
     --light_grey: #BCBCBC;
     --gray-2: #383838;
-    --white: rgb(255, 255, 255);
+    --white: rgb(255, 255, 255); 
 
-}
+    
+
+    
+}   
+.dark_theme{
+    --grey: rgb(113, 4, 255) ;
+     --light_grey: rgb(255, 255, 255);
+     --dark_grey: #6a00b1fa;
+     --light_grey: #BCBCBC;
+     --gray-2: #001aff67;
+     --white: rgb(255, 255, 255); 
+} 
+    
+
+
+
+
 
 
 .nothing {

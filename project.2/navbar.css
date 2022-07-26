@@ -87,6 +87,10 @@ li a {
     color: white;
 
 }
+#id_icon:active{
+transform: translateY(2px);
+transition: 0.5s;
+}
 
 /* --------------------------------------------ACCOUnt-------------------------------------- --------------------- ------------------------------ */
 
@@ -191,7 +195,8 @@ li a {
 .card_1 {
     overflow: hidden;
     box-shadow: 13px 12px 10px;
-    background-color: rgb(32 32 32);
+    /* background-color: rgb(32 32 32); */
+    background-color: var(--grey);
     background-size: cover;
     margin: 5rem;
     margin-left: 7rem;
@@ -246,10 +251,11 @@ li a {
 }
 
 .card_1:hover {
-    /* box-shadow: none;
-   transform: translateX(7px); */
-    transition: 0.4s;
+     box-shadow: none;
+  
+    transition: 0.5s;
     transform: scale(1.15) translateY(10px);
+    
 
 }
 .card_1 .card_text:hover {

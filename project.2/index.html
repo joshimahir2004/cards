@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="mj.js">
 
    
 
@@ -51,7 +52,7 @@
 
 
 
-        <img class="logo" src="img/obito.jpg" alt="img">
+        <img class="logo" src="img/Lswkub5NhuBJ016OeSO1.avif" alt="img" id="id_icon">
     </div>
 
     <!-- ----------------------------------------------------------------------------------------------------------------------------------- -->
@@ -76,6 +77,9 @@
                 <li> <a href=""> download<span class="material-symbols-outlined icon">
                             download
                         </span></li></a>
+                <li> <a href="">Dark mode <span class="material-symbols-outlined icon"id="id_icon" >
+                    dark_mode
+                    </span></li></a>
             </ul>
 
         </div>
@@ -234,6 +238,13 @@
         </div>
      
     </div>
+    <script>
+        var id_icon = document.getElementById("id_icon");
+
+    id_icon.onclick = function(){
+    document.body.classList.toggle("dark_theme")
+}
+    </script>
 </body>
 
 </html>
